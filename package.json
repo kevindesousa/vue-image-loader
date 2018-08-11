@@ -1,6 +1,6 @@
 {
   "name": "@kevindesousa/vue-image-loader",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Vue loader progressive image plugin like Medium",
   "main": "dist/vue-image-loader.js",
   "files": [
@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/kevindesousa/vue-image-loader#readme",
   "devDependencies": {
-    "babel-core": "^6.23.1",
+    "babel-core": "^6.26.3",
     "babel-loader": "^6.3.2",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-stage-2": "^6.22.0",
@@ -47,8 +47,8 @@
     "css-loader": "^0.26.2",
     "style-loader": "^0.13.2",
     "vue-loader": "^11.1.3",
-    "vue-template-compiler": "^2.2.1",
-    "webpack": "^3.4.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^3.12.0",
     "webpack-merge": "^3.0.0"
   }
 }
