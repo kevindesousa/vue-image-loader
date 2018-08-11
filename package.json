@@ -1,0 +1,54 @@
+{
+  "name": "@kevindesousa/vue-image-loader",
+  "version": "1.0.5",
+  "description": "Vue loader progressive image plugin like Medium",
+  "main": "dist/vue-image-loader.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "webpack --config config/webpack.dev.config.js -w --hide-modules",
+    "build": "webpack --config config/webpack.prod.config.js --optimize-minimize --hide-modules",
+    "prepublish": "webpack --config config/webpack.prod.config.js --optimize-minimize --hide-modules"
+  },
+  "author": {
+    "name": "Kevin De Sousa",
+    "email": "contact@kevindesousa.me"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevindesousa/vue-image-loader"
+  },
+  "keywords": [
+    "image",
+    "loader",
+    "progressive",
+    "img",
+    "lazy loading",
+    "medium"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevindesousa/vue-image-loader/issues"
+  },
+  "homepage": "https://github.com/kevindesousa/vue-image-loader#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.23.0",
+    "compression-webpack-plugin": "^0.3.2",
+    "css-loader": "^0.26.2",
+    "style-loader": "^0.13.2",
+    "vue-loader": "^11.1.3",
+    "vue-template-compiler": "^2.2.1",
+    "webpack": "^3.4.1",
+    "webpack-merge": "^3.0.0"
+  }
+}
