@@ -1,0 +1,23 @@
+image: node:9
+
+services:
+  - docker:dind
+
+stages:
+  - publish
+
+after_script:
+  - rm * -r
+  - rm -rf .[^.] .??*
+  - ls -l
+
+publish:
+  stage: publish
+  script:
+    - npm install
+    - npm run build
+    - npm run prepublish
+    - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
+    - npm publish --access=public
+  tags:
+    - docker
