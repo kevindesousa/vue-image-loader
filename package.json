@@ -1,6 +1,6 @@
 {
   "name": "@kevindesousa/vue-image-loader",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Vue loader progressive image plugin like Medium",
   "main": "dist/vue-image-loader.js",
   "files": [

@@ -5,11 +5,12 @@ Vue progressive image loading plugin
 
 ![alt tag](https://raw.githubusercontent.com/kevindesousa/vue-image-loader/master/example.gif)
 
+Article here : [https://www.kevindesousa.me/vue-image-loader/](https://www.kevindesousa.me/vue-image-loader/)
 
 ## Installation
 
 ```bash
-$ npm install vue-image-loader
+$ npm install @kevindesousa/vue-image-loader
 ```
 
 ## Usage
