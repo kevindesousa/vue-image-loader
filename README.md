@@ -17,7 +17,7 @@ $ npm install @kevindesousa/vue-image-loader
 
 ```js
 import Vue from 'vue'
-import VueImageLoader from 'vue-image-loader'
+import VueImageLoader from '@kevindesousa/vue-image-loader'
 
 Vue.use(VueImageLoader)
 ```
